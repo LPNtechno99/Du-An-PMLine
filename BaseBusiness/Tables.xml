@@ -1,0 +1,118 @@
+<Tables>
+
+	<Table>
+		<name>Andon</name>
+		<column>
+			<name>iD</name>
+			<dataType>int</dataType>
+			<isPK>true</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias></alias>
+			<number>0</number>
+		</column>
+		<column>
+			<name>shiftID</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Shift</alias>
+			<number>1</number>
+		</column>
+		<column>
+			<name>shiftStartTime</name>
+			<dataType>datetime</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Shift Start Time</alias>
+			<number>2</number>
+		</column>
+		<column>
+			<name>shiftEndTime</name>
+			<dataType>datetime</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Shift End Time</alias>
+			<number>3</number>
+		</column>
+		<column>
+			<name>totalSeconds</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Total Seconds</alias>
+			<number>4</number>
+		</column>
+		<column>
+			<name>dateLR</name>
+			<dataType>datetime</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Date L R</alias>
+			<number>5</number>
+		</column>
+		<column>
+			<name>takt</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Takt</alias>
+			<number>6</number>
+		</column>
+		<column>
+			<name>qtyPlanDay</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Qty Plan Day</alias>
+			<number>7</number>
+		</column>
+		<column>
+			<name>qtyPlanCurrent</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Qty Plan Current</alias>
+			<number>8</number>
+		</column>
+		<column>
+			<name>qtyActual</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Qty Actual</alias>
+			<number>9</number>
+		</column>
+		<column>
+			<name>qtyDelay</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Qty Delay</alias>
+			<number>10</number>
+		</column>
+	</Table>
+
+</Tables>
+
